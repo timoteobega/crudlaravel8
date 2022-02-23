@@ -19,6 +19,19 @@ São pré-requisitos para implantar essa aplicação:
 
 Após devidamente instalados os pré-requisitos acima citados, siga o passo-a-passo para implantar a aplicação
 
+MySQL
+```
+# Criar um banco de dados
+$ CREATE DATABASE crudlaravel8;
+
+# Criar o usuário empiricus
+$ CREATE USER 'crudlaravel8'@'localhost' IDENTIFIED BY 'crudlaravel8';
+
+# Conceder privilégios
+GRANT ALL PRIVILEGES ON crudlaravel8.* TO 'crudlaravel8'@'localhost';
+FLUSH PRIVILEGES;
+```
+
 Instalação
 ```
 # Clone o repositório
