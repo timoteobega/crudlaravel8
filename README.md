@@ -3,6 +3,7 @@
 Este projeto demonstra a implementação de um <b>CRUD (Create, Read, Update e Delete)</b> de uma mini aplicação em Laravel 8.
 A estrutura de dados é composta pelas entidades <b>users</b> e <b>books</b> relacionadas entre si. Cada usuário pode ser o autor de um ou mais livros.
 
+Veja esse CRUD executando online (http://crudlaravel8.firstup.one/)
 
 ### 📋 Pré-requisitos
 
