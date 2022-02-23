@@ -48,5 +48,12 @@ class BookSeeder extends Seeder
             'pages'=>'448',
             'price'=>'29.90',
         ]);
+
+        $book->create([
+            'title'=>'Mais esperto que o diabo: O mistério revelado da liberdade e do sucesso',
+            'id_user'=>'3',
+            'pages'=>'239',
+            'price'=>'27.10',
+        ]);
     }
 }
