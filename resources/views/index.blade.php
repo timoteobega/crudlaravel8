@@ -24,7 +24,7 @@
                     <th scope="row">{{$book->id}}</th>
                     <td>{{$book->title}}</td>
                     <td>{{$user->name}}</td>
-                    <td>{{$book->price}}</td>
+                    <td>{{@money($book->price)}}</td>
                     <td>
                         <a href="{{url("books/$book->id")}}">
                             <button class="btn btn-secondary">View</button>
