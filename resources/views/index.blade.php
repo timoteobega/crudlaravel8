@@ -3,7 +3,7 @@
 @section('content')
     <h1 class="text-center">CRUD with Laravel 8</h1>
     <h2 class="text-center">List</h2>
-    <div class="col-8 m-auto">
+    <div class="table-responsive m-auto">
         @csrf
         <table class="table table-striped text-center">
             <thead>
